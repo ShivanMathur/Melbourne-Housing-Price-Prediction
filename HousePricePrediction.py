@@ -49,14 +49,11 @@ def house_price_prediction(rooms, distance, bathroom, car, propertycount, type_h
     normalized_prediction = svr_model.predict([[normalized_rooms, normalized_distance, normalized_bathroom, normalized_car, normalized_propertycount, normalized_type_h, type_u, type_t]])
     prediction = denormalize_price(normalized_prediction, 136.0, 710000.0)
     return (prediction)
-""" 
-Code for the webpage UI design
-"""
 
 #Title of the UI interface of the product
 st.set_page_config(
     page_title="Melbourne Housing Price Prediction",
-    # page_icon=":house:",
+    page_icon=":house:",
     layout="wide",
     initial_sidebar_state="expanded",
 )
