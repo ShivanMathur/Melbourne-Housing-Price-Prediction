@@ -4,7 +4,6 @@ seaborn
 matplotlib
 scikit-learn
 streamlit
-pickle5
 warnings
 plotly
 pillow
