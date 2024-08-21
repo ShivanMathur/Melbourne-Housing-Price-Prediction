@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 
 random.seed(42)
 #picle file to use the previously saved state of the model trained
-pickle_in = open("svr_model.pkl", "rb")
+pickle_in = open("application_files/svr_model.pkl", "rb")
 svr_model = pickle.load(pickle_in)
 
 #Normalizing the data input the user
