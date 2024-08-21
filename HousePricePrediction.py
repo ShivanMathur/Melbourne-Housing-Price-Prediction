@@ -56,7 +56,7 @@ Code for the webpage UI design
 #Title of the UI interface of the product
 st.set_page_config(
     page_title="Melbourne Housing Price Prediction",
-    page_icon=":house:",
+    # page_icon=":house:",
     layout="wide",
     initial_sidebar_state="expanded",
 )
